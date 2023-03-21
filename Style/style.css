@@ -5,12 +5,13 @@ body {
     background-size: cover;
 }
 .titulo {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lobster', cursive;
     font-size: 50px;
     color: #fff;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 400;
 }
 
 
@@ -36,24 +37,51 @@ body {
     padding: 40px;
     margin: 20px;
 }
-h2 {
+.sub{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #0c0c0c;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-weight: 700;
 }
 .grid_programacion {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 .lista img {
     margin: 10px;
     object-fit: scale-down;
     width: 50px;
      
+}
+
+.paddy {
+    padding: 50px;
+}
+
+
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #0c0c0c;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.blanco{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
 }
